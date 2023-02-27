@@ -1,0 +1,11 @@
+.form-group {
+    line-height: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.form-group > label {
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: 800;
+}

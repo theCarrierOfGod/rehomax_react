@@ -1,0 +1,92 @@
+.row-header {
+  font-weight: 500;
+  display: grid;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.row-header > a {
+  width: 100%;
+  color: rgb(225, 225, 225);
+  line-height: 20px;
+  margin: 4px;
+  font-size: 12px;
+}
+.row-header > a:hover {
+  text-decoration: none;
+  color: rgb(225, 225, 225);
+}
+footer {
+  background: rgb(24, 104, 183);
+  color: #fff;
+  font-family: "Poppins" !important;
+}
+
+.footer-container {
+  padding: 50px 100px;
+}
+
+.section-header {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  color: grey;
+  font-family: "Poppins" !important;
+  font-weight: 500;
+}
+
+.btn-rehomax {
+  background: rgb(32, 129, 226);
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  font-family: "Poppins" !important;
+  font-weight: 500;
+}
+
+.btn-rehomax:hover,
+.btn-rehomax:focus {
+  color: #fff;
+  border: none;
+}
+
+.fKAlPV > button {
+  padding: 10px;
+  background: rgb(32, 129, 226);
+  border: 1px solid rgb(32, 129, 226);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.fKAlPV > button:hover {
+  filter: brightness(1.1);
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgb(32, 129, 226);
+}
+
+.bottom {
+  font-size: 12px;
+  color: rgba(255, 255, 255);
+}
+
+.bottom > .bottom-section > a {
+  color: rgba(255, 255, 255);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer -container {
+    padding: 20px 50px;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+
+  .bottom-section {
+    width: 100%;
+  }
+}

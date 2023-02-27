@@ -1,0 +1,74 @@
+.link:hover{
+    background: rgb(255, 255, 255, 0.4);
+}
+
+.link > .container > .title > label {
+    display: none;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.link:hover > .container > .title > label {
+    display: block !important;
+}
+
+.floating-image {
+    position: absolute;
+    bottom: -25px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+    border: 6px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.floating-image:hover > .image-fl {
+    background: rgb(255, 255, 255, 0.4);
+}
+
+.floating-image > .image-fl > .dp {
+    display: none;
+}
+
+.floating-image:hover > .image-fl > .dp {
+    display: block !important;
+}
+
+.image-fl {
+    height: 167px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 167px;
+    justify-content: center;
+    margin: 0;
+}
+
+.sectionMargin {
+    height: 40px;
+}
+
+
+.firstline > .others {
+    margin-right: 30px;
+}
+
+.others > .icon {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.accountUsername {
+    margin-left: 50px;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.message {
+    background-color: transparent !important;
+  }

@@ -1,0 +1,47 @@
+.p20 {
+    padding: 20px;
+}
+
+.headerText {
+    font-size: 200%;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.formContainer {
+
+}
+
+.requiredSmall {
+    font-size: 15px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+.label:hover {
+    cursor: pointer;
+}
+
+.closePreview {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    color: red;
+    z-index: 2;
+    border: 2px solid white;
+    background: black;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.closePreview:hover {
+    cursor: pointer;
+    background-color: white;
+    border-color: black;
+}
+
+.closePreview > .material-icons-outlined {
+  line-height: 36px;
+}

@@ -1,0 +1,94 @@
+.swiper-wrapper {
+  margin-right: 0 !important;
+  width: 90%;
+  height: 300px;
+  /* padding-bottom: 5px; */
+}
+
+.swiper-image {
+  height: 100%;
+}
+
+.swiper-container {
+  width: 96%;
+  margin: 2%;
+}
+
+.swiper-inner {
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: linear-gradient(#eaeaf5, #adadc1);
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.swiper-inner > a {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.swiper-inner:hover > a {
+  color: whitesmoke;
+}
+
+.swiper-tag {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+}
+
+.sw-a:hover {
+  color: white !important;
+}
+
+.inner-swipe {
+  padding: 5px;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 98%;
+}
+
+.inner-swipe:hover {
+  padding: 1px;
+  border-radius: 15px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  box-shadow: rgba(0, 0, 0) 4px 8px 10px;
+  border-radius: 100%;
+  background-color: white;
+  overflow: hidden;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  box-shadow: rgba(0, 0, 0) 6px 10px 12px;
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: black;
+  font-size: 25px !important;
+  font-weight: bolder;
+}
+
+.swiper-button-prev {
+  left: 0px !important;
+}
+
+.swiper-button-next {
+  right: 0px !important;
+}

@@ -1,0 +1,129 @@
+.swiper-wrapper {
+  margin-right: 0 !important;
+  width: 90%;
+  height: 300px;
+}
+
+.swiperimage {
+  height: 100%;
+}
+
+.swipercontainer {
+  width: 96%;
+  margin: 2%;
+}
+
+.swiperinner {
+  border-radius: 20px;
+  background: linear-gradient(#eaeaf5, #adadc1);
+  position: relative;
+  overflow: hidden;
+}
+
+.swiperinner > a {
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  letter-spacing: 2px;
+}
+
+.swiperinner:hover > a {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.swipertag {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+}
+
+.sw-a:hover {
+  color: white !important;
+}
+
+.innerswipe {
+  padding: 5px;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 98%;
+}
+
+.innerswipe:hover {
+  padding: 1px;
+  border-radius: 15px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  box-shadow: rgba(0, 0, 0) 4px 8px 10px;
+  border-radius: 100%;
+  /* opacity: 1; */
+  /* border: 2px solid black; */
+  background-color: white;
+  overflow: hidden;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  box-shadow: rgba(0, 0, 0) 6px 10px 12px;
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: black;
+  font-size: 25px !important;
+  font-weight: bolder;
+}
+
+.swiper-button-prev {
+  left: 0px !important;
+}
+
+.swiper-button-next {
+  right: 0px !important;
+}
+
+.collectionswipertag {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+}
+
+.nameBox {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 35px;
+  left: 30px;
+  border: 5px solid white;
+  z-index: 2;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: top;
+  background: #d9d9d9;
+}
+
+.inBoxName {
+  margin-top: 30px;
+  position: relative;
+  line-height: 75px;
+  margin-left: 32px;
+  color: black !important;
+  text-shadow: none !important;
+  font-family: monospace;
+  text-transform: capitalize;
+}

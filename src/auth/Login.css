@@ -1,0 +1,13 @@
+.error {
+  font-family: monospace;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: red !important;
+}
+
+.success {
+  font-family: monospace;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: green !important;
+}
